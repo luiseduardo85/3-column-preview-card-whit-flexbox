@@ -1,0 +1,61 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+.container{
+    width: 60%;
+    display: flex;
+    margin: 8% 10% 3% 20%;
+}
+img{
+    margin: 15px 25px;
+}
+.card{
+    height: 400px;
+    color: white;
+    font-size: 15px;
+}
+.card > h1{
+    margin: 10%;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.card > p{
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: justify;
+    font-weight: 400;
+    width: 75%;
+    margin: 10%;
+}
+button{
+    padding: 10px;
+    margin: 10%;
+    border-radius: 35px;
+    border: none;
+}
+.one{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+.two{
+    background-color: hsl(184, 100%, 22%);
+}
+.three{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.button-one{
+    color: hsl(31, 77%, 52%) ;
+}
+.button-two{
+    color: hsl(184, 100%, 22%) ;
+}
+.button-three{
+    color: hsl(179, 100%, 13%) ;
+}
+
+@media (max-width: 680px){
+    .container{
+        flex-direction: column;
+        height: 100%;
+    }
+}
